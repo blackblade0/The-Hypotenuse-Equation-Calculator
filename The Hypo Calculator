@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+//The Hypotenuse formula [Pythagorean theorem]
+
+int
+main ()
+{
+  double x, y;
+  double z;
+
+  printf ("Enter the number for x :");
+  scanf ("%lf", &x);
+  printf ("Enter the number for y :");
+  scanf ("%lf", &y);
+
+
+  z = (x * x) + (y * y);
+
+  printf ("The Hypotenuse is : %lf\n", sqrt (z));
+  printf ("and with no decimal place : %.lf", sqrt (z));
+
+  return 0;
+}
